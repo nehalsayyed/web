@@ -6,27 +6,28 @@
 </head>
 <body>
         <style>
-         body {
-         background-color:#000000;
-         color:#ffffff;
-         text-align:center;
-         }
+         .center {
+  line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
+}
 
-         h1 {
-          box-sizing:border-box;
-          box-shadow:0 0 20px green;
-          margin-top:60px;
-          margin-left:80px;
-          width:200px;
-          height:200px;
-          border-radius:20px;
-          padding:20px;
-          }
+/* If the text has multiple lines, add the following: */
+.center h1 {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+         
          </style>
 
          <script>
           alert("WELCOME");
          </script>
-	<h1>NEHAL SAYYED</h1>			
+<div class="center">
+	<h1>NEHAL SAYYED</h1>
+</div>			
 </body>
 </html>
